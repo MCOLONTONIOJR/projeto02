@@ -1,0 +1,101 @@
+<!--- [1] INÍCIO | Configurando a PÁGINA -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head> 
+    <!--- Entrando com as FONTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" 
+    crossorigin>
+    <!-- Configurações da página. Viewport a tora responsiva -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página --> 
+    <title>Treine me</title>
+    <!-- Buscando as fontes no Google Fonts-->
+    <link 
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Inter:wght@700&family=Mulish:wght@400;700&family=Open+Sans:wght@400;700&display=swap" 
+    rel="stylesheet"
+    >
+    <!-- Definindo que o estilo da página será caracterizado pelo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head> 
+<!--- [1] FIM | Configurando a PÁGINA -->
+
+
+<body> <!--[2] INÍCIO | Configurando o CORPO DA PÁGINA  -->
+
+    <div class="page"> <!--para associar vários elementos a uma classe específica e trabalhar tudo de uma 
+        vez no CSS-->
+      
+        <nav> <!-- [3] INÍCIO | Configurando o MENU DE NAVEGAÇÃO da página -->
+        
+            <a id = "logo" href="#" alt = "" rel = "noopener"> <!-- atribuindo link para o Logo -->
+                <img src="images/logo.svg" alt ="Treine.me"> <!-- trazendo a imagem do Logo-->
+            </a>
+                
+            <ul> <!-- para definir uma lista-->
+                <li>
+                    <a href="#" alt ="" rel = "noopener"><!-- atribuindo link para o item da lista-->
+                     Home   
+                    </a> 
+                 </li>
+                <li>
+                    <a href="#" alt ="" rel = "noopener"><!-- atribuindo link para o item da lista-->
+                    Sobre
+                    </a> 
+                </li>
+                <li> 
+                    <a href="#" alt ="" rel = "noopener"><!-- atribuindo link para o item da lista-->
+                    Treinar
+                    </a> 
+                </li>
+            </ul>
+
+        </nav><!-- [3] FIM | Configurando o MENU DE NAVEGAÇÃO da página -->
+
+
+        <main> <!-- [4] INÍCIO | Configurando o CONTEÚDO PRINCIPAL DO CORPO da página -->
+            <section> <!-- para agrupar os textos-->
+            
+                <h1> <!-- [4.1] texto título -->
+                    Treinos <span>exclusivos</span> para você!
+                </h1>
+
+                <p> <!-- [4.2] textos parágrafos -->
+                   Nós criamos treinos <strong>exclusivos e únicos</strong> para você. 
+                   <br/> <!-- para quebrar linha-->
+                   Invista no seu corpo e <strong>tenha mais performance</strong> e qualidade de vida. 
+                </p>
+                
+                <button> <!-- [4.3] para inserir o botão do whatsapp-->
+                <img src="images/whats.svg" alt="ícone do whatsapp">
+                 Começe já
+                </button>
+
+            </section>
+
+            <img src="images/img.svg" alt = "Desenho de uma mulher pulando corda em uma academia">
+
+        </main> <!-- [4] FIM | Configurando o CONTEÚDO PRINCIPAL DO CORPO da página -->
+
+        <footer> <!-- [5] INÍCIO | Configurando o RODAPÉ DO CORPO da página -->
+            fale conosco no instagram 
+            <a href="https://instagram.com/treineme" target="_blank" rel="noopener">
+            <strong>@treine.me</strong>
+            </a>
+         
+        </footer> <!-- [5] FIM | RODAPÉ DO CORPO da página -->
+
+    </div>
+
+         <!-- [6] INÍCIO | Inserindo a FIGURA DECORATIVA-->   
+         <img id = balls src="./images/balls.svg" alt = "Bolinhas verdes decorativas no canto inferior da página">
+         <!-- [6] FIM | Inserindo a FIGURA DECORATIVA-->  
+   
+    
+
+</body> <!--[2] FIM | Configurando o CORPO DA PÁGINA  -->
+<!-------------------------------------------------------------------------------------------------------------->
+</html>

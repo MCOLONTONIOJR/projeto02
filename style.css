@@ -1,0 +1,126 @@
+body {
+    
+    margin: 0;/*margem do DOCUMENTO COM UM TODO*/
+    font-family: 'Open Sans', sans-serif; /*definição da FONTE do DOCUMENTO como um todo*/
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0.00) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+    /*↑ para inserir o gradiente de fundo. Uma outra opção é ir no site https://cssgradient.io/ esboçar um 
+    gradiente e trazer para o código.*/
+    min-height: 100vh; /*para que o body ocupe NO MÍNIMO 100% viewport-heigth de janela visível do dispositivo*/
+    }
+
+.page {
+    /*border: 1px solid red; /*para visualizar o [2]CORPO da página*/
+    width: 1000px; /*largura do [2]CORPO a página*/
+    margin: 0 auto;/*margens do [2] CORPO da página*/
+    padding-top: 65px; /*preenchimento interno da página*/
+    }
+
+nav {
+    display: flex; /*irá posicionar a "img" e a "nav" uma ao lado da outra*/
+    justify-content: space-between;/*dá espaço entre "img" e a nav"*/
+    align-items: center; /*centraliza no mesmo eixo horizontal a "img" e a "nav"*/
+    margin-bottom: 55px; /*espaçamento entre o [3]CABEÇALHO e o [5]CONTEÚDO PRINCIPAL do corpo */
+    }
+
+ul {
+    
+   list-style: none;/*removendo os marcadores dos itens da lista*/
+   display: flex;/*colocando os itens da lista lado à lado*/
+   gap: 48px;/*dá espaço entre os itens da lista*/
+   margin: 0;/*retirando a margem dos itens para NÃO ATRAPALHAR na centralização*/
+   padding: 0;/*retirando a preenchimento dos itens para NÃO ATRAPALHAR na centralização*/
+   font-family: 'Mulish', sans-serif; /*definição da FONTE do dos itens da lista*/
+  
+   }
+
+a {
+    text-decoration: none;/*eliminando o sublinado links*/
+    color: #1F1534; /*cor do texto*/
+  }
+
+ ul li a {
+    opacity: 0.5; /*para gerar opacidade no texto do link*/
+    } 
+
+    ul li a:hover {
+    font-weight: bold; /*MUITO LEGAL: ao passar o mouse em cima a fonte muda para negrito/bold */
+    opacity: 1;
+}
+
+main {
+   
+    display: flex; /*para deixar os elementos lado a lado*/
+    align-items: center; /*para deixar os elementos alinhados horizontalmente*/
+    justify-content: space-between; /*para inserir espaço entre os textos e a imagem*/
+}
+
+h1 {
+    
+    font-family: 'Mulish', sans-serif; /*definição da FONTE do TÍTULO do CONTEÚDO PRINCIPAL*/
+    font-size: 49px; /*tamanho da fonte*/
+    line-height: 56px; /*altura da linha*/
+    color:#1F1534; /*cor do texto*/
+    font-weight: normal; /*fonte do texto normal, ou seja, sem negrito*/
+    width: 490px; /*largura da caixa onde está o título*/
+   }
+
+h1 span {
+    color:#89C5CC;/*cor do texto "exclusivos"*/
+    font-weight: bold; /*fonte do texto "exclusivos*/
+}
+
+section p {
+    font-size: 14px; /*tamanho da fonte*/
+    line-height: 28px; /*altura da linha*/
+    color: #7D7987; /*cor do texto*/
+    margin: 40px 0; /*atribuindo margem entre os elementos de texto e tbm o botão*/
+  }
+
+button {
+    /*configurações de texto*/
+    color: white;
+    text-transform: uppercase; /*converte texto para CAIXA ALTA no BOTÃO do Whatsapp*/
+    font-family: 'Open Sans', sans-serif; /*definição da FONTE do TEXTO no BOTÃO do Whatsapp*/
+    
+    /*configurações da estrutura do botão*/
+    background-color:#69B99D;/*atribuindo cor ao elmento*/
+    border: 0; /*retirando a borda original*/
+    display: flex;/*colocando um item ao lado do outro: ícone e texto*/
+    border-radius: 4px; /*para atribuir borda arredondada ao botão*/
+
+    /*configurações de alinhamento de elementos e preenchimento do botão*/
+    align-items: center;/*para deixar os elementos alinhados horizontalmente*/
+    justify-content: center;/*para centralizar o ícone e o texto*/
+    padding: 14px 32px 15px; /*para colocar preenchimento entre*/
+    gap: 10px; /*para dar espaço entre o icone e o texto <ou> espaço entre os elementos*/
+    cursor: pointer; /*habilita a mãozinha (mouse) ao passar com o cursor em cima*/
+
+     }
+
+button:hover {
+    background: #4ea788;
+}
+
+footer {
+    font-size: 14px; /*tamanho da fonte*/
+    line-height: 28px; /*altura da linha*/
+    text-align: center; /*alinhamento do texto*/
+    margin-top: 80px; /*distância ↑ entre o elemento footer e o main*/
+
+       }
+
+footer a {
+    font-weight: bold; /*destaque em negrito para o texto do link*/
+         }
+
+#balls {
+position: fixed; /*par deixar a imagem travada/fixa*/
+bottom: 0;/*para a imagem não ter distanciamento da parte inferior*/
+right: 0;/*para a imagem não ter distanciamento no lado direito*/
+}
+
+footer a:hover {
+    color: #6a2f8d;
+    background: #f5f4f8;
+
+}
